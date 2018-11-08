@@ -80,7 +80,7 @@ public class EntInfo {
   private String otherorgname;
   private Double paiclupcapital;
   private String pccurrency;
-  private String private;
+  private String privates;
   private String projectflag;
   private String rccurrency;
   private String realtyflag;
@@ -804,16 +804,18 @@ public class EntInfo {
   }
 
 
-  public String getPrivate() {
-    return private;
-  }
-
-  public void setPrivate(String private) {
-    this.private = private;
-  }
 
 
-  public String getProjectflag() {
+
+  public String getPrivates() {
+	return privates;
+}
+
+public void setPrivates(String privates) {
+	this.privates = privates;
+}
+
+public String getProjectflag() {
     return projectflag;
   }
 
